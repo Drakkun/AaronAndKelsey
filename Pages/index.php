@@ -11,7 +11,7 @@ include_once('header.php');
         <div class="col-md-11 col-xs-12" align="middle">
 
             <form action = "index.php" method="post" align="middle">
-                <h1>You're Invited</h1>
+                <h1 align="middle">You're Invited</h1>
 
                 <!--First Name-->
                 <div class ="form-group col-md-4">
@@ -93,7 +93,7 @@ if (isset($_POST['submit']))
     }
 
     //Makes sure at least 1 adult is attending
-    if (!$Adults) {
+    if (!$ADULTS) {
         $errorMessage .= "There must be at least 1 adult attending.";
         $isComplete = false;
     }

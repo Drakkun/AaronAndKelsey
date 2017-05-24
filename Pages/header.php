@@ -21,8 +21,8 @@
                 <ul class="nav nav-tabs">
                     <li <?php if($menuActive==0){echo 'class="active"';}?>><a href="index.php">RSVP</a></li>
                     <!--Other links for other pages when we make them. For the time being hav commented them out
-                <li <?php if($menuActive==1){echo 'class="active"';}?>><a href="contactus.php">Contact Us</a></li>
-                <li <?php if($menuActive==2){echo 'class="active"';}?>><a href="donations.php">Donations</a></li>-->
+                    <li <?php if($menuActive==1){echo 'class="active"';}?>><a href="contactus.php">Contact Us</a></li>
+                    <li <?php if($menuActive==2){echo 'class="active"';}?>><a href="donations.php">Donations</a></li>-->
                 </ul>
             </div>
         </div>

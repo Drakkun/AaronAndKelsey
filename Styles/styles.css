@@ -23,12 +23,16 @@ p {
 button {
     background-color: #ffe569; /*yellow*/
     border: none;
+    border-radius: 3px;
     color: black;
-    padding: 15px 32px;
+    padding: 5px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.25em;
+    width: 21.2%;
+    min-width: 200px;
+    min-height: 25px;
 }
 
 
@@ -67,4 +71,8 @@ li a:hover {
 /*Input fields*/
 .container .form-control {
     height: 2em;
+    width: 21.2%;
+    min-width: 200px;
+    min-height: 25px;
+    border-radius: 3px;
 }

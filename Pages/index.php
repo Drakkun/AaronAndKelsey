@@ -15,36 +15,36 @@ include_once('header.php');
 
                 <!--First Name-->
                 <div class ="form-group col-md-4">
-                    <input type="text" size="53" style="height: 2em"
-                           class="form-control" placeholder="First Name" name="FIRSTNAME"/>
+                    <input type="text" size="53"
+                           class="form-control" placeholder=" First Name" name="FIRSTNAME"/>
                 </div>
                 &nbsp;&nbsp;
 
                 <!--Last Name-->
                 <div class="form-group col-md-4">
-                    <input type="text" size="53" style ="height:2em"
-                           class="form-control" placeholder="Last Name" name="LASTNAME"/>
+                    <input type="text" size="53"
+                           class="form-control" placeholder=" Last Name" name="LASTNAME"/>
                 </div>
                 &nbsp;&nbsp;
 
                 <!--Email (can be NULL/optional)-->
                 <div class="form-group col-md-4">
                     <input type="email" size="53"
-                           class="form-control" placeholder="Email (optional)" name="EMAIL"/>
+                           class="form-control" placeholder=" Email (optional)" name="EMAIL"/>
                 </div>
                 &nbsp;&nbsp;
 
                 <!--Number of Adults-->
                 <div class="form-group col-xs-6">
-                    <input type="number" style="width: 30em; height:2em"
-                           class="form-control" placeholder="Number of Adults Attending Ages 13+" name="ADULTS"/>
+                    <input type="number"
+                           class="form-control" placeholder=" Number of Adults Attending (ages 13+)" name="ADULTS"/>
                 </div>
                 &nbsp;&nbsp;
 
                 <!--Number of Kids-->
                 <div class="form-group col-md-6">
-                    <input type="number" style="width: 30em; height:2em"
-                           class="form-control" placeholder="Number of Children Attending Ages 12 and under" name="KIDS"/>
+                    <input type="number"
+                           class="form-control" placeholder=" Number of Children Attending (ages 12 and under)" name="KIDS"/>
                 </div>
                 &nbsp;&nbsp;
 

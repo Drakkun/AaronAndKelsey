@@ -4,7 +4,7 @@
 $menuActive=0;
 include_once('header.php');
 ?>
-
+<body>
 <!--RSVP form start-->
 <div class="container" align="middle">
     <div class="row" align="middle">
@@ -29,7 +29,7 @@ include_once('header.php');
 
                 <!--Email (can be NULL/optional)-->
                 <div class="form-group col-md-4">
-                    <input type="email" size="53" style ="height:2em"
+                    <input type="email" size="53"
                            class="form-control" placeholder="Email (optional)" name="EMAIL"/>
                 </div>
                 &nbsp;&nbsp;
@@ -44,7 +44,7 @@ include_once('header.php');
                 <!--Number of Kids-->
                 <div class="form-group col-md-6">
                     <input type="number" style="width: 30em; height:2em"
-                           placeholder="Number of Children Attending Ages 12 and under" name="KIDS"/>
+                           class="form-control" placeholder="Number of Children Attending Ages 12 and under" name="KIDS"/>
                 </div>
                 &nbsp;&nbsp;
 

@@ -1,1 +1,70 @@
 /* Style sheet for Aaron and Kelsey's wedding RSVP website */
+
+
+/*Background color*/
+body {
+    background-color: #484d69; /*blue*/
+}
+
+
+/*Text color and font */
+h1 {
+    color: white;
+    font-family: serif;
+    font-style:italic;
+}
+
+p {
+    color: white;
+}
+
+
+/*RSVP button*/
+button {
+    background-color: #ffe569; /*yellow*/
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*Nav menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #484d69; /*blue*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar.navbar-inverse {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/*Input fields*/
+.container .form-control {
+    height: 2em;
+}

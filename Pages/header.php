@@ -13,59 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Project style sheet -->
-    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/styles.css">
+</head>
 
-    <!-- Background color -->
-    <style>
-        /*Background color*/
-        body {background-color: #484d69; /*blue*/}
-
-        /*Text color and font */
-        h1   {color: white; font-family: serif; font-style:italic;}
-        p    {color: white;}
-
-        /*RSVP button*/
-        button {
-            background-color: #ffe569 /*yellow*/;
-            border: none;
-            color: black;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-
-        /*Nav menu*/
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #484d69; /*blue*/;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
-            background-color: #111;
-        }
-
-        navbar{ width: 100%; text-align: center; }
-    </style>
-
-
+<header>
     <h1 align="middle">Kelsey Leigh Clark  &hearts; Aaron Michael Fields</h1>
 
     <!--Nav Bar Menu-->
@@ -81,6 +32,4 @@
             </div>
         </div>
     </nav>
-</head>
-
-<body>
+</header>

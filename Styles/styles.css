@@ -39,33 +39,28 @@ button {
 /*Nav menu*/
 ul {
     list-style-type: none;
-    margin: 0;
+    display: table;   /* Allow centering the ul to work */
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #484d69; /*blue*/
 }
 
-li {
-    float: left;
-}
-
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
-}
-
-.navbar.navbar-inverse {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
+    max-width: 5%;
+    min-width: 50px;
+    align-content: center;
+    border-radius: 2px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #ffe569;
 }
 
 /*Input fields*/

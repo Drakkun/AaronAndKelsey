@@ -24,7 +24,7 @@ button {
     background-color: #ffe569; /*yellow*/
     border: none;
     border-radius: 3px;
-    color: black;
+    color: #484d69;
     padding: 5px 32px;
     text-align: center;
     text-decoration: none;
@@ -61,6 +61,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #ffe569;
+    color: #484d69;
 }
 
 /*Input fields*/

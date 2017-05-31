@@ -16,6 +16,14 @@ h1 {
 
 p {
     color: white;
+    font-family: serif;
+    font-style:italic;
+}
+
+a {
+    color: white;
+    font-family: serif;
+    font-style:italic;
 }
 
 
@@ -37,9 +45,15 @@ button {
 
 
 /*Nav menu*/
+nav{
+    text-align:center;
+}
+
 ul {
     list-style-type: none;
-    display: table;   /* Allow centering the ul to work */
+    display: inline-block;    /*Allow centering the ul to work */
+    width:750px;
+    list-style:none;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -58,8 +72,12 @@ li a {
     border-radius: 2px;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to yellow on hover */
 li a:hover {
+    background-color: #ffe569;
+    color: #484d69;
+}
+li a:active {
     background-color: #ffe569;
     color: #484d69;
 }

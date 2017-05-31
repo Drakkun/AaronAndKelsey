@@ -4,6 +4,7 @@
 /*Background color*/
 body {
     background-color: #484d69; /*blue*/
+    border-bottom: 1px solid white;
 }
 
 
@@ -42,11 +43,16 @@ button {
     min-width: 200px;
     min-height: 25px;
 }
-
+button:hover {
+    background-color: #ffe569;
+    color: #484d69;
+    border: 1px solid black;
+}
 
 /*Nav menu*/
 nav{
     text-align:center;
+    border-bottom: 1px solid white;
 }
 
 ul {
@@ -59,6 +65,12 @@ ul {
     overflow: hidden;
     background-color: #484d69; /*blue*/
 }
+li {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
 
 li a {
     display: inline-block;
@@ -66,10 +78,11 @@ li a {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    max-width: 5%;
+    max-width: 15%;
     min-width: 50px;
     align-content: center;
     border-radius: 2px;
+    /*float: left;*/
 }
 
 /* Change the link color to yellow on hover */

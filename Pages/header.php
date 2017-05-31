@@ -22,8 +22,8 @@
     <!--Nav Bar Menu-->
     <nav>
         <div class="containter">
-            <div>
-                <ul class="nav nav-tabs">
+            <div align="middle">
+                <ul align="middle">
                     <li <?php if($menuActive=0){echo 'class="active"';}?>><a href="index.php">RSVP</a></li>
                     <li <?php if($menuActive=1){echo 'class="active"';}?>><a href="contactus.php">Contact Us</a></li>
                     <li <?php if($menuActive=2){echo 'class="active"';}?>><a href="donations.php">Donations</a></li>

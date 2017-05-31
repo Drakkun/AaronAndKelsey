@@ -4,3 +4,7 @@
 $menuActive=2;
 include_once('header.php');
 ?>
+<body>
+
+</body>
+</html>

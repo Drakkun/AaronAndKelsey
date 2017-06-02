@@ -42,6 +42,8 @@ button {
     width: 21.5%;
     min-width: 200px;
     min-height: 25px;
+    font-family: serif;
+    font-style:italic;
 }
 button:hover {
     background-color: #ffe569;
@@ -87,10 +89,6 @@ li a {
 
 /* Change the link color to yellow on hover */
 li a:hover {
-    background-color: #ffe569;
-    color: #484d69;
-}
-li a:active {
     background-color: #ffe569;
     color: #484d69;
 }

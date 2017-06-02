@@ -10,7 +10,7 @@ include_once('header.php');
         <div class="row" align="middle">
             <div class="col-md-11 col-xs-12" align="middle">
 
-                <form action = "index.php" method="post" align="middle">
+                <form action = "index.php" method="post">
                     <h1 align="middle">You're Invited</h1>
 
                     <!--First Name-->
@@ -44,12 +44,12 @@ include_once('header.php');
                     <!--Number of Kids-->
                     <div class="form-group col-md-6">
                         <input type="number" min="0"
-                               class="form-control" placeholder=" Number of Children Attending (ages 12 and under)" name="KIDS"/>
+                               class="form-control" placeholder=" Number of Children (ages 12 and under)" name="KIDS"/>
                     </div>
                     &nbsp;&nbsp;
 
                     <!--Submit/RSVP button-->
-                    <div class="containter">
+                    <div class="container">
                         <div class="row">
                             <div class="col-md-11">
                                 <button type ="submit" class="btn btn-default" name="submit">RSVP</button>
@@ -106,11 +106,11 @@ include_once('header.php');
             //$db=connectDB($DBHost,$DBUser,$DBPasswd,$DBName);
 
             //Check to see if what the guest entered will exceed 150 total people attending the wedding
-            $checkGuestCount = "SELECT SUM(TOTALQUANTITY) AS TOTALGUESTS FROM GUEST;";
+            //$checkGuestCount = "SELECT SUM(TOTALQUANTITY) AS TOTALGUESTS FROM GUEST;";
             ////TODO:run insert query/create config.php and functions
             //$currentGuests=queryDB($checkGuestCount, $db);
 
-            $TOTALQUANTITY = $addedGuests;
+            //$TOTALQUANTITY = $addedGuests;
 
             /*if ($currentGuests + $addedGuests) >150
             {
@@ -122,10 +122,10 @@ include_once('header.php');
             else
             {*/
                 //put together sql code to insert into database
-                $insertRSVP = "INSERT INTO GUEST
+                /*$insertRSVP = "INSERT INTO GUEST
                     (FIRSTNAME, LASTNAME, EMAIL, ADULTS, KIDS, TOTALQUANTITY) 
                     VALUES ('" . $FIRSTNAME . "', '" . $LASTNAME . "','" . $EMAIL . "',
-                    '" . $ADULTS . "','" . $KIDS . "','" . $TOTALQUANTITY . "');";
+                    '" . $ADULTS . "','" . $KIDS . "','" . $TOTALQUANTITY . "');";*/
 
                 //TODO:run insert query/create config.php and functions
                 //queryDB($insertRSVP, $db);
